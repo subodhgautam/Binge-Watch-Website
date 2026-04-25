@@ -1,4 +1,25 @@
 @import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@layer components {
+   /* nav {
+    @apply cursor-pointer
+   } */
+   nav * {
+    @apply cursor-pointer
+   }
+   *{
+    font-family: "Poppins"
+   }
+
+   .btn{
+    padding: 8px;
+    background-color: rgba(207, 21, 21, 0.863);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+   }
+}
 
 @theme {
     --background-image-hero : url('/assets/images/bg.jpg');

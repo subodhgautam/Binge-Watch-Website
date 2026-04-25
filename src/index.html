@@ -10,36 +10,55 @@
     <title>Netflix Homepage Clone 2024</title>
 </head>
 
-<body>
+<body class="bg-black">
 
-    
-    
-    <div class="overlay w-full bg-red-600  ">
-        
-    <div class="bg-hero bg-center min-h-[80vh] text-white">
 
-            <nav>
-                <img src="/assets/images/logo.svg" alt="LOGO" class="w-20">
 
-                <div class="nav_items">
-                    <button>English</button>
-                    <a href="#signin">Sign in</a>
 
-                </div>
-            </nav>
+    <div class="main bg-hero bg-center bg-no-repeat bg-cover min-h-[70vh] text-white relative w-full flex flex-col">
 
-            <div class="hero_section">
-                <h1>Enjoy big movies and all shows and more for FREE</h1>
-                <h2>Join today. Cancel anytime.</h2>
-                <h3> Ready to watch? Enter your email to create or restart your membership.</h3>
+        <div class="overlay h-full bg-black/70 absolute inset-0 z-0"></div>
 
-                <input type="email" name="email" id="email" placeholder="Email Address"><button>Get Started</button>
+        <nav class="flex justify-between max-w-[80vw] h-9 mx-auto w-full z-10 relative ">
+            <img src="/assets/images/logo.svg" alt="LOGO" class="w-20">
+
+            <div class="nav_items gap-8 flex">
+                <button class="btn bg-[#6f6e6e56] border border-gray-600/50 px-3 font-medium
+                 ">English</button>
+                <button class="btn">Sign in</button>
             </div>
 
+        </nav>
 
+
+        <div
+            class="hero_section p-5 relative z-10 h-full flex flex-col items-center justify-center gap-4 text-md grow text-center ">
+
+            <span>
+                <h1 class="text-2xl md:text-4xl font-bold">Enjoy big movies and all shows and more for FREE</h1>
+            </span>
+
+            <span>
+                <h2 class="md:text-[24px] font-medium">Join today. Cancel anytime.</h2>
+            </span>
+
+            <span>
+                <h3 class="text-[12px] md:text-[18px]"> Ready to watch? Enter your email to create or restart your
+                    membership.</h3>
+            </span>
+            <div class="enter">
+
+                <input type="email" name="email" id="email" placeholder="Email Address" class="p-3 rounded-2xl outline-none focus:border "> 
+                <button id="get_started_btn" class="btn my-4 p-3 text-[16px]">Get Started &nbsp; &gt; </button>
+
+            </div>
         </div>
 
+
     </div>
+
+    <div class="separator h-1.5 w-full bg-gray-600/40 "></div>
+
 
 
 
