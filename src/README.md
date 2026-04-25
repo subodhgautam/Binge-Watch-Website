@@ -12,3 +12,21 @@ This is a simple homepage inspired from Netflix. In the future I want to learn b
 - TAILWIND CSS
 - JAVASCRIPT
 
+
+## Installation:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/subodhgautam/Binge-Watch-Website.git
+    ```
+
+2. Navigate to `index.html` file to open in your browser to view the App.
+
+   ## OR
+    You can visit the site <a href="https://subodhgautam.github.io/Binge-Watch-Website/src">here.</a>
+ 
+<img src="/Binge_watch_website_homepage_end_result.png">
+<i> IMAGE: Final Result </i>
+
+
+## License:
+MIT License
