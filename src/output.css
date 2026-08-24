@@ -25,7 +25,7 @@
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --background-image-hero: url('/assets/images/bg.jpg');
+    --background-image-hero: url('https://user-cdn.hackclub-assets.com/01a034e6-18b7-70d6-b23e-90e8dafca92f/bg.jpg');
   }
 }
 @layer base {
